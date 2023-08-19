@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Management System</h1>
+    
+
+    <form id="studentForm">
+       <div class="inputs">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="text" id="grade" placeholder="Grade" required>
+        <input type="text" id="degree" placeholder="Degree" required>
+        <input type="email" id="email" placeholder="Email" required>
+       </div>
+        <button id="submitBtn">Add Student</button>
+      </form>
+
+
+      <input type="text" id="searchInput" placeholder="Search by name, email, or degree">
+
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+            <th>Degree</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Student rows will be inserted here using JavaScript -->
+        </tbody>
+      </table>
+<script src="script.js"></script>
+</body>
+</html>
+
